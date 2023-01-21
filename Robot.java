@@ -4,14 +4,11 @@
 
 package frc.robot;
 
-import edu.wpi.first.math.controller.DifferentialDriveFeedforward;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
-import com.ctre.phoenix.motorcontrol.ControlMode;
-import com.ctre.phoenix.motorcontrol.VictorSPXControlMode;
 
 /**
  * This is a demo program showing the use of the DifferentialDrive class. Runs the motors with
